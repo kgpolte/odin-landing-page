@@ -6,7 +6,7 @@ body {
 
 .header {
     padding: 0px 96px;
-    background: #3b3b3b;
+    background: #1F2937;
 }
 
 .top-row {
@@ -14,11 +14,19 @@ body {
     align-items: center;
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
 .head-links {
     display: flex;
     list-style-type: none;
     margin-left: auto;
     gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .media {
@@ -26,6 +34,17 @@ body {
     align-items: flex-start;
     padding-bottom: 64px;
     gap: 16px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 img {
