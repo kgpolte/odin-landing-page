@@ -3,6 +3,11 @@ body {
     flex-direction: column;
 }
 
+.header {
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
 .top-row {
     display: flex;
     align-items: center;
