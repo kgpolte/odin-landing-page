@@ -24,7 +24,8 @@ body {
 .media {
     display: flex;
     align-items: flex-start;
-    padding-bottom: 48px;
+    padding-bottom: 64px;
+    gap: 16px;
 }
 
 img {
