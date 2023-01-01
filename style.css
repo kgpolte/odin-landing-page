@@ -32,6 +32,7 @@ body {
 .media {
     display: flex;
     align-items: center;
+    padding-top: 64px;
     padding-bottom: 64px;
     gap: 16px;
 }
@@ -100,6 +101,27 @@ body {
 .card .text {
     max-width: 150px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    color:#1F2937;
+    padding: 64px 128px;
+    font-size: 36px;
+}
+
+.quote .text {
+    font-weight: light;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.quote .credit {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0px;
 }
 
 img {
