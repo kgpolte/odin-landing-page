@@ -6,8 +6,6 @@ body {
 .top-row {
     display: flex;
     align-items: center;
-    padding-left: 48px;
-    padding-right: 48px;
 }
 
 .head-links {
@@ -15,6 +13,10 @@ body {
     list-style-type: none;
     margin-left: auto;
     gap: 16px;
+}
+
+.media {
+    display: flex;
 }
 
 img {
