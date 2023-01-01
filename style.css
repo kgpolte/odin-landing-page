@@ -81,6 +81,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 32px;
+    padding-top: 16px;
+    padding-left: 48px;
+    padding-bottom: 96px;
+    padding-right: 96px;
 }
 
 .card {
