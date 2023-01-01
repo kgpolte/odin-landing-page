@@ -38,7 +38,7 @@ body {
     gap: 16px;
 }
 
-.left {
+.media .left {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -67,11 +67,6 @@ body {
     border-radius: 4px;
 }
 
-.call-signup {
-    border-style: solid;
-    border-color: #F9FAF8;
-}
-
 .random-info h1 {
     text-align: center;
     font-size: 36px;
@@ -81,7 +76,7 @@ body {
 .card-view {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 32px;
     padding-top: 16px;
     padding-left: 48px;
@@ -123,6 +118,41 @@ body {
     font-weight: bold;
     text-align: right;
     margin-top: 0px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 96px;
+}
+
+.box {
+    display: flex;
+    flex: 0 1 auto;
+    gap: 96px;
+    padding: 32px 96px;
+    background: #3882F6;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.call-to-action .text h1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
+}
+
+.call-to-action .text p {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.call-signup {
+    border-style: solid;
+    border-color: #F9FAF8;
 }
 
 img {
