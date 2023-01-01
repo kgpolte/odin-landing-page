@@ -55,6 +55,21 @@ body {
     margin: 0;
 }
 
+.hero-signup, .call-signup {
+    width: 96px;
+    color: #F9FAF8; 
+    background: #3882F6;
+    font-weight: bold;
+    padding: 4px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.call-signup {
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
 img {
     width: 350px;
 }
