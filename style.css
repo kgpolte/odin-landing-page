@@ -3,7 +3,7 @@ body {
     flex-direction: column;
 }
 
-.header {
+.top-row {
     display: flex;
     align-items: center;
     padding-left: 48px;
